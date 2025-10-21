@@ -1,0 +1,23 @@
+{
+    "name": "kareng/document-reader",
+    "description": "A Laravel package for extracting MRZ data from passport PDFs using Tesseract OCR",
+    "type": "library",
+    "require": {
+        "laravel/framework": "^10.0",
+        "spatie/pdf-to-image": "^2.0",
+        "symfony/process": "^6.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kareng\\DocumentReader\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "KarenG",
+            "email": "karengevorgyan2000@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
