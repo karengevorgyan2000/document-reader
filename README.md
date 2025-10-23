@@ -25,16 +25,8 @@ $data = $reader->extractMrzFromPdf($pathToPdf);
 ## Example of returned data:
 
 ```
-[
-    'passport_number' => '123456789',
-    'first_name'      => 'John',
-    'last_name'       => 'Doe',
-    'nationality'     => 'USA',
-    'birth_date'      => '1990-01-01',
-    'expiry_date'     => '2030-01-01',
-    'gender'          => 'M',
-    'country_code'    => 'USA'
-]
+P<UTOERIKSSON<<ANNA<MARIA<<<<<<<<<<<<<<<<<<<
+L898902C36UTO7408122F1204159ZE184226B<<<<<10
 ```
 
 ## Requirements
